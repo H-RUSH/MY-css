@@ -1,0 +1,16 @@
+div>div#circle1,div>div#circle2{
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    background-color: blue;
+}
+#containar{
+    display: flex;
+  
+    align-items: center;
+}
+#line{
+    height: 1px ;
+    background-color: rgb(179, 80, 80);
+    width: 100px;
+}
