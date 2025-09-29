@@ -1,21 +1,22 @@
 body {
     margin: 0;
-    background-color: rgba(1, 1, 55, 0.908);
+    background-color: rgba(255, 255, 255, 0.908);
 }
+
 
 #containar {
-    display: flex;
-    height: 550px;
-    width: 1080px;
-    background-image: url("bmw.webp");
-    background-size: cover;
-    background-position: center;
+    border: 5px solid white;
+   display: flex;
+  background-image: url(bmw.webp);
+  height: 660px;
+  width: 1080px;
+  
+
 }
 
-#containar .bmw {
-    flex: 1;
-    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-    background: inherit;      /* Inherits container’s image */
-    background-clip: content-box;
-    background-size: 1080px 550px;
+#bmw{
+    clip-path: polygon(50% 0, 25% 50%, 50% 100%, 25% 100%, 0 50%, 25% 0%);
+    height: 660px;
+    width: 350px;
+    background-color: rgb(1, 1, 55);
 }
