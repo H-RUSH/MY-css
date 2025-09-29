@@ -41,3 +41,9 @@ body{
     background-color: blue;
     clip-path: polygon(0 0,0 100px, 100px 100px,0 0);
 }
+#padding{
+    height:50px;
+    width: 50px;
+    display: inline;
+    padding: 2px 3px;
+}
