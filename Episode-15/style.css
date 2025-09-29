@@ -1,10 +1,20 @@
-div>div#circle1,div>div#circle2{
+/* https://bennettfeely.com/clippy/ */
+body{
+    padding: 15px;
+}
+#containar{
+    margin: 20px;
+    height: 200px;
+    border: 1.5px solid black;
+    padding: 10px;
+}
+#containar-box>div#circle1,div>div#circle2{
     height: 50px;
     width: 50px;
     border-radius: 100%;
     background-color: blue;
 }
-#containar{
+#containar-box{
     display: flex;
   
     align-items: center;
@@ -13,4 +23,21 @@ div>div#circle1,div>div#circle2{
     height: 1px ;
     background-color: rgb(179, 80, 80);
     width: 100px;
+}
+#box-on-box{
+    height: 200px;
+    width: auto;
+    border: 2px solid black;
+}
+#reactangle{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    clip-path: polygon(0 0, 0 100px, 100px 100px,0 0);
+}
+#five-angle{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    clip-path: polygon(0 0,0 100px, 100px 100px,0 0);
 }
